@@ -1,0 +1,22 @@
+---
+pid: 6916
+cwd: "C:\\Users\\carad\\Projects\\convite-victoria"
+command: "git -C \"C:\\Users\\carad\\Projects\\convite-victoria\" init; python -m http.server 8765 --directory \"C:\\Users\\carad\\Projects\\convite-victoria\""
+started_at: 2026-06-26T12:25:53.055Z
+running_for_ms: 13       
+---
+git : O termo 'git' n�o � reconhecido como nome de cmdlet, fun��o, arquivo de script ou programa oper�vel. Verifique a 
+grafia do nome ou, se um caminho tiver sido inclu�do, veja se o caminho est� correto e tente novamente.
+No C:\Users\carad\AppData\Local\Temp\ps-script-f5c53aa7-db9b-4dc2-adf5-7657953f2da1.ps1:110 caractere:1
++ git -C "C:\Users\carad\Projects\convite-victoria" init; python -m htt ...
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Python n�o foi encontrado; executar sem argumentos para instalar do Microsoft Store ou desabilitar este atalho em Configura��es > Aplicativos > Configura��es avan�adas do aplicativo > Aliases de execu��o do aplicativo.
+
+---
+exit_code: 9009
+elapsed_ms: 4798
+ended_at: 2026-06-26T12:25:57.853Z
+---
