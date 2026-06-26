@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2a0a45" />
+    <title>15 anos — Victória</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <section id="tela-capa" class="tela ativa">
+        <div class="img-wrap">
+          <img
+            class="convite-img"
+            src="assets/capa.png"
+            alt="Convite de 15 anos da Victória"
+          />
+          <button
+            id="btn-local"
+            class="hotspot hotspot-local"
+            type="button"
+            aria-label="Ver local da festa"
+          ></button>
+          <button
+            id="btn-presentes"
+            class="hotspot hotspot-presentes"
+            type="button"
+            aria-label="Ver sugestões de presentes"
+          ></button>
+          <button
+            id="btn-informacoes"
+            class="hotspot hotspot-informacoes"
+            type="button"
+            aria-label="Ver informações da festa"
+          ></button>
+        </div>
+      </section>
+
+      <section id="tela-presentes" class="tela">
+        <button class="btn-voltar" type="button" data-voltar>← Voltar</button>
+        <img
+          class="convite-img"
+          src="assets/presentes.png"
+          alt="Sugestões de presentes"
+        />
+      </section>
+
+      <section id="tela-informacoes" class="tela">
+        <button class="btn-voltar" type="button" data-voltar>← Voltar</button>
+        <div class="img-wrap">
+          <img
+            class="convite-img"
+            src="assets/informacoes.png"
+            alt="Informações sobre a festa"
+          />
+          <button
+            id="btn-duvida"
+            class="hotspot hotspot-duvida"
+            type="button"
+            aria-label="Tirar dúvidas no WhatsApp"
+          ></button>
+        </div>
+      </section>
+    </div>
+
+    <button id="btn-musica" class="btn-musica" type="button" aria-label="Tocar música">
+      🔇
+    </button>
+
+    <div id="overlay-musica" class="overlay-musica">
+      <button id="btn-iniciar" type="button">Toque para abrir o convite 🎵</button>
+    </div>
+
+    <audio id="musica" loop preload="auto"></audio>
+
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
